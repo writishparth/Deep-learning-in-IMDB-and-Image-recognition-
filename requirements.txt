@@ -1,0 +1,13 @@
+For both the datasets (imdb and fashion):
+
+Through the command line argument the code is run by passing the arguments after the python filename. 
+eg : python imdb.py 1 0.01 10 100 1234
+
+Using keras the model is saved. The location for which would be in the same folder as the code. 
+The checkpoints would be saved with the format: datasetname-combination-learningrate-epochs-batches-seednumber.
+eg: imdb-1-0.01-10-100-1234.0.ckpt
+
+'/logs' directory is created for storing the logs.
+
+The code for loading the model and checking the test accuracy is mentioned for each network 
+in the respective .py code file.
